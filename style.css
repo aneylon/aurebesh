@@ -1,0 +1,195 @@
+* {
+	color : yellow;
+}
+
+body {
+	background-color : #777;
+}
+
+@font-face {
+	font-family : aurebesh;
+	src : url(Aurebesh.woff);
+}
+
+@font-face {
+	font-family : distantGalaxy;
+	src : url(SFDistantGalaxy.woff);
+}
+
+.sansSerif {
+	font-family : sans-serif;;
+}
+
+.hidden {
+	display : none;	
+}
+
+#linkBack {
+	position : absolute;
+	right : 45px;
+	top : 45px;
+	padding : 10px;
+	background-color: #000;
+	border-radius: 15px;
+	border : solid yellow 3px;
+}
+
+#closeInfo {
+	position : absolute;
+	right : 30px;
+	top : 1px;
+	padding : 10px 15px;
+	background-color : #aaa;
+	color : #555;
+	border : solid black 3px;
+	border-radius : 30px;
+	font-family : sans-serif;
+	font-weight : bold;
+}
+
+#closeInfo:hover {
+	background-color : #555;
+	color : #aaa;
+}
+
+#infoPane {
+	position: fixed; /* could be absolute */
+	top: 0; left: 0; bottom: 0; right: 0;
+	margin: auto;
+	padding : 15px;
+	width: 800px;
+	height: 350px;
+	background-color : #555;
+	color : #fff;
+	font-weight : bold;
+	font-size : large;
+	border : solid black 5px;
+	border-radius : 15px;
+}
+
+#infoButton {
+	position : absolute;
+	left : 30px;
+	top : 15px;
+	font-size : large;
+	display : inline;
+	padding : 10px 15px;
+	margin : 5px;
+	background-color : #aaa;
+	color : #555;
+	border : solid black 3px;
+	border-radius : 30px;
+}
+
+#infoButton:hover {
+	background-color : #666;
+	border : solid #222 3px;
+}
+
+#infoText {
+	padding : 30px;
+	color : white;
+}
+
+#quizExample {
+	font-size : xx-large;
+	background : #333;
+	border-radius : 10px;
+	/*display : inline-block;*/
+	padding : 10px;
+	margin : 75px 5px 5px;
+}
+
+#quizClue {
+	background : #222;
+	border-radius : 10px;
+	/*display : inline-block;*/
+	padding : 10px;
+	margin : 5px;
+}
+
+#nextButton {
+	background : #333;
+	border-radius : 10px;
+	display : inline-block;
+	padding : 10px;
+	margin : 5px;
+	border : solid black 3px;
+}
+#nextButton:hover {
+	background-color : #888;
+}
+
+#closeQuiz {
+	position : absolute;
+	right : 10px;
+	top : 1px;
+	border : solid black 3px;
+	border-radius : 30px;
+	padding : 10px 15px;
+	background-color : #aaa;
+	font-family : sans-serif;
+	font-weight : bold;
+	color : #555;
+}
+
+#closeQuiz:hover {
+	background-color : #555;
+	color : #aaa;
+}
+
+#quizPane {
+  position: fixed; /* could be absolute */
+  /*top: 0; left: 0; bottom: 0; right: 0;*/
+  margin: auto;
+  left:0;right:0;top:150;
+  width: 650px;
+  height: 250px;
+	background : #555;
+	border : solid #222 5px;
+	border-radius : 15px;
+}
+
+#pageWrapper{
+	max-width: 700px;
+	min-width: 500px;
+	margin : auto;
+	margin-top : 25px;
+	background-color : black;
+	border-radius : 15px;
+	padding : 15px;
+}
+
+#title {
+	font-size : xx-large;
+}
+
+#startButton {
+	font-size : xx-large;
+	background-color : #555;
+	border-radius : 10px;
+	border : solid yellow 5px;
+	display : inline;
+	padding : 10px;
+	margin : 15px;
+}
+
+#startButton:hover {
+	background-color : #777;
+}
+
+#examples {
+	padding-top : 30px;
+}
+
+.centerText {
+	text-align: center;
+}
+
+.aurebesh {
+	font-family: aurebesh;
+}
+
+.distantGalaxy {
+	font-family : distantGalaxy;
+}
